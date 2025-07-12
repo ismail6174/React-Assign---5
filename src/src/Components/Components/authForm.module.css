@@ -1,0 +1,28 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  width: 320px;
+  text-align: center;
+}
+
+.toggle {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.link {
+  color: #007bff;
+  cursor: pointer;
+  margin-left: 6px;
+  font-weight: bold;
+}
